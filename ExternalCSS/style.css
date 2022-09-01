@@ -1,12 +1,55 @@
 body{
 	background-color: fuchsia;
+	padding: 0;
+	margin: 0;
 }
+
+
+/*This is the header for the H1 use in this project*/
 h1{
 	text-align: center;
 	font-family: cursive;
 }
 
-img{
+/*The Second header used inside this project across the whole body*/
+h2{
+	text-align: center;
+	padding: 50px 0px;
+	background-color: darkgreen;
+	color: white;
+}
+
+/*The main DIV that houses both first child and second child, which helps to position them well */
+.parent{
+	width: 800px;
+	height: 500px;
+	background-color: green;
+	display: flex;
+	margin: auto;
+}
+
+/*First child DIV here*/
+.first-child{
+	width: 400px;
+	text-align: center;
+	border: 1px solid hotpink;
+}
+
+
+/*Second child DIV here*/
+.second-child{
+	width: 400px;
+	border: 1px solid darkred;
+}
+
+/*Image use inside first child is controlled from here*/
+.first-child img{
 	border-radius: 50%;
-	border: 5px solid green;
+	padding: 40px 0px;
+}
+
+/*Here is the CSS responsible for the paragraphs inside second child and not the entire body*/
+.second-child p{
+	padding: 30px 50px;
+	text-align: justify;
 }
