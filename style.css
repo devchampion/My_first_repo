@@ -1,0 +1,49 @@
+.OGA{
+	/*height:400px;*/
+	width:600px;
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	margin-left: 27%;
+	margin-top: 9%;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+img{
+	width: 300px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+body{
+	background-color: hsl(30, 38%, 92%);
+}
+p{
+	font-size: 14px;
+	/*word-spacing: 3px;*/
+	font-family: 'montserrat';
+	line-height: 25px;
+	padding-left: 30px;
+	color: hsl(228, 12%, 48%);
+	margin-top: 30px;
+}
+span{
+	color: hsl(158, 36%, 37%);
+	font-family: 'fraunces';
+	font-size: 35px;
+	margin-top: 0px;
+}
+h1{
+	line-height: 10px;
+	padding-left: 30px;
+	font-family: 'fraunces';
+}
+button{
+	background-color: hsl(158, 36%, 37%);
+	margin-left: 30px;
+	margin-top: 20px;
+	padding: 12px 60px;
+	border-radius: 10px;
+	color: hsl(0, 0%, 100%);
+}
+.cont{
+	margin-right: 40px;
+}
